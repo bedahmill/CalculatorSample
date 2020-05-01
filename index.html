@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Calculator</title>
+</head>
+<body>
+    <header class="center-align">
+        <h2 class=" s12 m12 l12 myText teal-text lighten-2">My Calculator</h2>
+    </header>
+    <div class="container">
+        <div class="s12 l12 center-align">
+            <input type="text" id="inputValue" class="right-align orange-text" disabled placeholder="input here">
+        </div>
+        <div class="left-align">
+            <p class="errorMessage red-text" id="error">Please enter some content!</p>
+        </div>
+        <div class="buttons">
+            <div class="row center-align">
+              <input type="button" id="clearBtn" class="col s12 waves-effect waves-light btn-large orange darken-4" value="C">
+              <input type="button" id="divideBtn" class="mathButton col s3 waves-effect waves-light btn-large black" value="/">
+              <input type="button" id="minusBtn" class="mathButton col s3 waves-effect waves-light btn-large black" value="-">
+              <input type="button" id="multiplyBtn" class="mathButton col s3 waves-effect waves-light btn-large black" value="*">
+              <input type="button" id="addBtn" class="mathButton col s3 waves-effect waves-light btn-large black" value="+">
+              <input type="button" class="mathButton col s4 m4 l4 waves-effect waves-light btn-large" value="7">
+              <input type="button" class="mathButton col s4 m4 l4 waves-effect waves-light btn-large" value="8">
+              <input type="button" class="mathButton col s4 m4 l4 waves-effect waves-light btn-large" value="9">
+              <input type="button" class="mathButton col s4 m4 l4 waves-effect waves-light btn-large" value="4">
+              <input type="button" class="mathButton col s4 m4 l4 waves-effect waves-light btn-large" value="5">
+              <input type="button" class="mathButton col s4 m4 l4 waves-effect waves-light btn-large" value="6">
+              <input type="button" class="mathButton col s4 m4 l4 waves-effect waves-light btn-large" value="1">
+              <input type="button" class="mathButton col s4 m4 l4 waves-effect waves-light btn-large" value="2">
+              <input type="button" class="mathButton col s4 m4 l4 waves-effect waves-light btn-large" value="3">
+              <input type="button" class="mathButton col s4 m4 l4 waves-effect waves-light btn-large" value="0">
+              <input type="button" id="dotBtn" class="mathButton col s4 m4 14 waves-effect waves-light btn-large black" value=".">
+              <input type="button" id="delBtn" class="col s4 m4 14 waves-effect waves-light btn-large red" value="del">
+              <input type="button" id="resultBtn" class="col s8 m8 l8 waves-effect waves-light btn-large green" value="=">
+              </div>
+        </div>
+    </div>
+   <div class="container">
+       <p class="right-align orange-text copyText">Made by Mill 2020 haha</p>
+
+   </div>
+    <script type="text/javascript" src="main.js"></script>
+   
+</body>
+</html>

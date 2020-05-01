@@ -1,0 +1,6 @@
+/* error message css */
+.errorMessage{
+    margin-bottom: 10px;
+    text-align: center;
+    display: none;
+}
